@@ -32,16 +32,13 @@ var txtNombre = "";
 alert( nombre );
 }
 
-function muestra(){
-    var nom = otraCaja.value;
-var nombre = document.getElementById('otraCaja');
-nom.value( 'hola' +nom)
-}
+
 
 function formarNombre()
 {
-    var nombre = document.getElementById("txtNombre").value;
-    var apellido = document.getElementById("txtApellido").value;
-    var ubicacion = document.getElementById("completo");
-    ubicacion.value = nombre +' '+ apellido;
+    var nombre      = document.getElementById( "txtNombre"   ).value;
+    var apellido    = document.getElementById( "txtApellido" ).value;
+    var ubicacion   = document.getElementById( "completo" );
+    ubicacion.value = nombre + ' ' + apellido;
 }
+
