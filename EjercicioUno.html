@@ -2,16 +2,27 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <script>
-    function alerta(){
-        window.alert("alerta desde script");
-    }
-    </script>
+    <title>Practicas Java Script</title>
+    <script src="Scripts/script.js"></script>
 </head>
 <body>
    <label for="textoAIngresar">Texto</label>
    <input id="textoAIngresar" placeholder="Ingrese nombre" type="text" autofocus/></br>
 <button value="saludar" onclick=alerta()>saludar</button>
+<button value="saludarEnConsola" onclick=segundaAlerta()>saludar en consola</button>
+<button value="saludarEnConsola" onclick=tercerAlerta()>saludar en ventana</button>
+<br>
+<br>
+<button value="saludarEnConsola" onclick=pidoDatos()>Pedir Datos</button>
+<button value="saludarEnConsola" onclick=pidoNumero()>Pedir Numero</button>
+<button value="saludarEnConsola" onclick=traeValor()>Trae nombre </button>
+<br>
+<br>
+<br>
+<br>
+<input type="text" id="otraCaja" />
+<button value="saludarEnConsola" onclick=muestra()>Armar mensaje </button>
+
+
 </body>
 </html>
