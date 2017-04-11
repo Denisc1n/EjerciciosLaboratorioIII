@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Practica Bootstrap</title>
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <form action="" method="POST">
+            <div class="form-group">
+                <label for="nombre">Nombre: &nbsp; </label>
+                <input class="form-control" type="text" id="nombre" placeholder="Ingrese Nombre">
+            </div>
+            <div class="form-group">
+                <label for="opcionCombo">Opcion:&nbsp;</label>
+                <select class="form-control" name="opcion" id="opcionCombo">
+                <option value="1">Opcion Uno</option>
+                <option value="2">Opcion Dos</option>
+            </select>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:&nbsp;</label>
+                <textarea class="form-control" name="mensajeARecibir" id="mensaje" placeholder="Ingrese su mensaje"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="archivo">Imagen:&nbsp;</label>
+                <input class="form-control" type="file" id="archivo">
+                <p class="help-block">Maximo 2MB</p>
+            </div>
+            <hr>
+            <button class="btn btn-block" disabled="disabled" style="background-color: lightskyblue">Envio Datos</button>
+        </form>
+    </div>
+</body>
+
+</html>
