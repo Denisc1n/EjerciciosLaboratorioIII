@@ -1,0 +1,17 @@
+{
+  "name": "EjerciciosLaboratorioIII",
+  "homepage": "https://github.com/Denisc1n/EjerciciosLaboratorioIII",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
