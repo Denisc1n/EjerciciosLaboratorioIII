@@ -1,0 +1,11 @@
+if(typeof(storage) !== "undefined") {
+    localStorage.SetItem( "Autor", "Mariano"); //Par clave valor. (!)
+    localStorage.autor = "Mariano"
+    var autor = localStorage.getItem("Autor"); //Guardaria 'Mariano'
+
+//Borrado
+    localStorage.removeItem("Autor");
+
+}else{
+    alert("No esta instalado");
+}
