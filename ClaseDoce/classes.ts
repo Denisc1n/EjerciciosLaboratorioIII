@@ -92,8 +92,9 @@ class Vehiculo
     public AgregarAccesorios( ...accesorios:Accesorio[] ):string
     {
         let salida:string
+        salida = " ";
         accesorios.forEach(element => {
-            salida+=element.id+" "+element.nombre;
+            salida+=element.id+" "+element.nombre + " ";
         });
         return salida;
     }

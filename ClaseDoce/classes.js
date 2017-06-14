@@ -54,8 +54,9 @@ class Vehiculo {
     }
     AgregarAccesorios(...accesorios) {
         let salida;
+        salida = " ";
         accesorios.forEach(element => {
-            salida += element.id + " " + element.nombre;
+            salida += element.id + " " + element.nombre + " ";
         });
         return salida;
     }
