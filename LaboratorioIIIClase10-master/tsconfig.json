@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "sourceMap": true, //Permite debug el archivo .ts
+        "removeComments":true //Remueve los comentarios cuando transpila al archivo .js
+    }
+}

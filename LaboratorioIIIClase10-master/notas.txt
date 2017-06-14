@@ -1,0 +1,21 @@
+Para descargar el archivo tsconfig.json:
+ejecutar el comando: tsc --init
+
+Del archivo tsconfig.json 
+si la propiedad "sourceMap": true = Permite debug el archivo .ts
+Una vez que generamos el archivo .js, a parte nos genera otro con extension .js.map
+
+Cada vez que se realiza un cambio en el archivo tsconfig.json, en la consola tenemos que ejecutar el comando tsc (solo),
+para que tome los cambios.
+
+Cuando existe el archivo tsconfig.json, se da cuenta que existen varios archivos con extension .ts . Para transpilar todos los archivos
+es necesario ejecuar el comando tsc --watch
+
+Para no transpilar los comentarios es necesario modificar la propiedad del archivo tsconfig.json 
+"removeComments" = true
+
+Para incluir mas de un archivo .ts y que funcione se puede:
+1-incluir la cantidad de script necesarios dentro del html.
+2-Unificar todos los archivos en 1 solo. En la misma consola se agrega la propiedad outfile (siempre que se agrega en la consola
+directamente se escribe con dos -- al principio).
+Quedaria: tsc --outfile nombreDelArchivoAGenerar archivoAIncluir1 archivoAIncluir2  //No hace falta agregar la extension
